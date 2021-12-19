@@ -1,0 +1,379 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    height: 100vh;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-image: url('https://i.ibb.co/HNvHSyV/image-header.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+/* header css start */
+.header{
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    
+}
+
+.menu span{
+    margin-right: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2em;
+    transition: color 0.5s ease-in-out;
+}
+
+.contact{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #fffbf8;
+    transition: 0.2s all ease-in-out;
+    color: #4d4a4e !important;
+    
+}
+
+.contact:hover{
+    background-color: #D3D3D3;
+}
+
+.contact a{
+    font-size: 1.2 em;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    flex-grow: 1;
+    font-weight: bold;
+    color: #fffbf8;
+}
+
+.arrow{
+    margin-top: 60px;
+}
+/* header css end */
+/* Transform your brand start */
+.section1{
+    display: flex;
+    height: 350px;
+}
+
+.section1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1 .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .text-container{
+    width: 70%;
+}
+
+.left h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.left p{
+    color: #848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.left .button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left div img{
+    width: 150px;
+}
+
+.left, .right{
+    flex: 1;
+}
+
+.left img, .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Transform your brand section css end */
+/* Stand out to the right audience section css start */
+.section2, .section3{
+    display: flex;
+    height: 350px;
+}
+
+.section2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section2 .second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 .texts-container{
+    width: 70%;
+}
+
+.section2 h1{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.section2 p{
+    color: #848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+
+}
+
+.second .button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.second  img{
+    width: 150px;
+}
+
+.first, .second{
+    flex: 1;
+}
+/* Stand out to the right audience section css end */
+/* graphic design and photography sectioon css start */
+.section3 .left{
+    background-image: url("./assets/graphic-design.jpg");
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.section3 .left h3{
+    color:#00362c ;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section3 .left p{
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #589688;
+    font-weight: bold;
+    text-align: center;
+    width: 78%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.section3 .right{
+    background-image: url("./assets/photography.jpg");
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* graphic design and photography section css end */
+/* client review section css start */
+.client-image{
+    width: 80px;
+    height: 80px;
+    
+}
+
+.client-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFBF8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section4 h1{
+    color: #A0A1A2;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.clients{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .client{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    align-items: center;
+}
+
+.client .client-image{
+
+    margin-bottom: 16px;
+}
+
+.client{
+    text-align: center;
+    color: #4d4a4e;
+}
+
+.client p{
+    text-align: center;
+    margin: 20px 0;
+    margin-bottom: 30px;
+    color: #848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.client .details{
+    text-align: center;
+}
+
+.client h4{
+    color: #A0A1A2;
+    margin-top: 8px;    
+}
+/* client review ssection css end */
+/* gallery section css start */
+.section5{
+    display: flex;
+}
+
+.section5 div{
+    flex: 0.25;
+}
+
+.section5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* gallery section css end*/
+/* footer css start */
+.footer{
+    background-color: #90D4C5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer .logo{
+    margin-top: 50px;
+    color: #2D7465;
+}
+
+.footer-navigation{
+    margin-top: 30px;
+    color: #428677;
+    font-weight: bold;
+}
+
+.footer-navigation span{
+    padding: 8px;
+    cursor: pointer;
+}
+.footer-navigation span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer-navigation span:hover{
+    color: #2D7465;
+}
+
+.footer .social-media-icons{
+    margin-top: 30px;
+}
+
+.social-media-icons img{
+    padding: 4px;
+}
+/* footer css end */
+/* photography section css start */
+.section3 .right .discription{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.section3 .right .discription h3{
+    color: #005091;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section3 .right .discription p{
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0282c3;
+    font-weight: bold;
+    text-align: center;
+    width: 78%;
+    margin: 0 auto;
+}
+/* photography section css end */
