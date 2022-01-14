@@ -77,8 +77,8 @@ I did'nt see any useful resources other than the ones you all know
 
 ## Author
 
-- [LinkedIn](https://www.linkedin.com/in/abbas-manning-5907b8203/)
-- [Frontend Mentor](https://www.frontendmentor.io/profile/Abbazz2020)
+- [LinkedIn](https://www.linkedin.com/in/rishikesh-jagadale-331812207/)
+- [Frontend Mentor](https://www.frontendmentor.io/)
 
 ## Acknowledgments
 
