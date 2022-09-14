@@ -32,8 +32,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://www.frontendmentor.io/solutions/standard-html-sunnyside-agency-landing-page-9LkcvKsBF)
-- [Live site](https://23281.csb.app/)
+- [Live site](https://rissh.github.io/Sunnyside-landing-page/)
 
 ## My process
 
